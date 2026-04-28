@@ -1,0 +1,6 @@
+.DS_Store
+*.class
+/.idea/
+/.vscode/
+/bin/
+/data/leaderboard_export.csv
