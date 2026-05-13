@@ -1,35 +1,90 @@
-difficulty,question,option_a,option_b,option_c,option_d,correct,explanation
-EASY,Java la gi?,He dieu hanh,Ngon ngu lap trinh,Trinh duyet web,Co so du lieu,2,Java la mot ngon ngu lap trinh huong doi tuong.
-EASY,File ma nguon Java thuong co duoi gi?,.js,.java,.class,.jar,2,Ma nguon Java duoc viet trong file .java.
-EASY,Lenh nao dung de in ra man hinh trong Java?,echo(),print(),System.out.println(),console.log(),3,System.out.println() la cach in dong co ban trong Java.
-EASY,Tu khoa nao dung de khai bao lop?,function,class,struct,def,2,Tu khoa class dung de khai bao lop.
-EASY,Phuong thuc main trong Java co vai tro gi?,Luu du lieu,Diem bat dau chuong trinh,Ve giao dien,Ket noi mang,2,main la diem vao chinh cua chuong trinh Java.
-EASY,Kieu du lieu nao luu so nguyen?,String,boolean,int,double,3,int dung de luu so nguyen.
-EASY,Kieu du lieu nao luu dung/sai?,float,char,boolean,long,3,boolean chi co true va false.
-EASY,Tu khoa nao tao doi tuong moi?,make,init,new,create,3,new dung de tao doi tuong.
-EASY,Chuoi ky tu trong Java thuong dung kieu nao?,Text,char[],String,word,3,String la lop dung de xu ly chuoi.
-EASY,Cau lenh re nhanh trong Java la gi?,repeat,if,loop,scan,2,if dung de kiem tra dieu kien.
-MEDIUM,Java hoat dong dua tren thanh phan nao?,GPU,JVM,BIOS,API Gateway,2,Ma bytecode Java chay tren JVM.
-MEDIUM,Ket qua cua 5 / 2 voi hai toan hang int la gi?,2,2.5,3,Loi,1,Phep chia int trong Java cat phan thap phan.
-MEDIUM,Tu khoa nao dung de ke thua lop?,extends,implements,inherits,super,1,extends dung de ke thua tu mot lop khac.
-MEDIUM,Interface trong Java duoc mot lop su dung bang tu khoa nao?,extends,inherits,implements,instanceof,3,Lop implements mot interface.
-MEDIUM,ArrayList nam trong package nao?,java.io,java.util,java.sql,java.net,2,ArrayList thuoc java.util.
-MEDIUM,Phuong thuc nao dung de lay do dai chuoi String?,size(),count(),length(),getLength(),3,String dung length().
-MEDIUM,Phuong thuc nao dung de lay so phan tu cua ArrayList?,length(),size(),count(),capacity(),2,ArrayList dung size().
-MEDIUM,Tu khoa nao tham chieu den doi tuong hien tai?,self,this,current,object,2,this tham chieu den doi tuong hien tai.
-MEDIUM,Tu khoa nao goi constructor cua lop cha?,parent,super,base,extends,2,super() goi constructor lop cha.
-MEDIUM,Kieu nao phu hop de luu gia tri thap phan chinh xac hon?,int,boolean,double,char,3,double thuong dung cho so thuc.
-MEDIUM,Ngoai le nao xay ra khi chia cho 0 voi so nguyen?,NullPointerException,ArithmeticException,IOException,ClassNotFoundException,2,Chia so nguyen cho 0 gay ArithmeticException.
-MEDIUM,Tu khoa nao ngan lop bi ke thua?,static,const,final,sealed,3,final class khong cho phep ke thua.
-MEDIUM,"Khi overload method, dieu gi phai khac?",Ten package,Danh sach tham so,Kieu tra ve bat buoc,Muc truy cap bat buoc,2,Overload can khac tham so.
-HARD,Diem khac nhau chinh giua abstract class va interface la gi?,Interface co constructor,Abstract class co the co state va method co than,Interface ke thua class,Abstract class khong co method,2,Abstract class co field instance va method da cai dat.
-HARD,Collection nao khong cho phep phan tu trung lap?,List,Set,Queue,ArrayList,2,Set loai bo phan tu trung lap.
-HARD,HashMap luu du lieu theo dang nao?,Cap key-value,Chi gia tri,Danh sach tuan tu,Cay nhi phan,1,HashMap to chuc du lieu theo cap khoa-gia tri.
-HARD,Tu khoa synchronized dung de lam gi?,Tang toc do,Dong bo truy cap da luong,Khai bao hang,Bat ngoai le,2,synchronized giup tranh truy cap tranh chap.
-HARD,Phuong thuc nao co the duoc override?,private method,static method,instance method khong final,constructor,3,Method instance khong final co the override.
-HARD,Optional trong Java duoc dung de lam gi?,Thay the moi interface,Xu ly gia tri co the null an toan hon,Tao thread moi,Ma hoa du lieu,2,Optional giam viec thao tac null truc tiep.
-HARD,Stream API thuong duoc dung de lam gi?,Ve giao dien,Xu ly tap hop du lieu theo kieu khai bao,Tao file jar,Ket noi JDBC,2,"Stream API giup filter, map, reduce du lieu."
-HARD,Generics trong Java giup dieu gi?,Tang kich thuoc file,Kiem tra kieu du lieu khi bien dich,Bo qua compiler,Tao giao dien Swing,2,Generics tang type safety.
-HARD,"Trong try-with-resources, doi tuong tai nguyen can thoa dieu kien nao?",Ke thua Thread,Implements AutoCloseable,La static,La final,2,Tai nguyen phai AutoCloseable de tu dong dong.
-HARD,ClassNotFoundException thuong lien quan den van de nao?,Chia cho 0,Khong tim thay lop khi nap dong,Mang vuot chi so,Null object,2,Class loader khong tim thay lop can nap.
-EASY,123,123,123,123,123,1,
+difficulty,question,option_a,option_b,option_c,option_d,correct,explain
+EASY,Ngôn ngữ lập trình Java do công ty nào khởi xướng phát triển?,Microsoft,Sun Microsystems,Google,Oracle,2,Java được phát triển ban đầu bởi Sun Microsystems.
+EASY,Khẩu hiệu nổi tiếng thể hiện tính độc lập nền tảng của Java là gì?,Write once run anywhere,Compile once run everywhere,Simple and Power,Open source for all,1,Triết lý của Java là Viết một lần chạy mọi nơi.
+EASY,JDK là viết tắt của cụm từ nào?,Java Desktop Kit,Java Development Kit,Java Dual Key,Java Digital Kit,2,JDK là bộ công cụ phát triển Java.
+EASY,Thành phần nào trong Java có nhiệm vụ thực thi mã Bytecode?,JDK,JRE,JVM,JDB,3,JVM (Java Virtual Machine) là máy ảo thực thi mã bytecode.
+EASY,Công cụ nào dùng để biên dịch file nguồn .java thành file .class?,java,javac,javadoc,javap,2,javac là trình biên dịch mã nguồn Java.
+EASY,Kiểu dữ liệu 'int' trong Java chiếm bao nhiêu byte bộ nhớ?,1 byte,2 byte,4 byte,8 byte,3,Kiểu int có kích thước mặc định là 4 byte.
+EASY,Ký hiệu nào dùng để bắt đầu một chú thích trên một dòng?,//,/*,/**,||,1,Sử dụng // cho chú thích đơn dòng.
+EASY,Để in dữ liệu ra màn hình và tự động xuống dòng ta dùng hàm nào?,print(),printf(),println(),out(),3,println() thực hiện in và ngắt dòng.
+EASY,Lớp nào trong gói java.util thường dùng để nhập liệu từ bàn phím?,Printer,Scanner,Input,Read,2,Scanner dùng để đọc dữ liệu nhập vào.
+EASY,Toán tử '%' trong Java dùng để thực hiện phép tính gì?,Chia lấy phần nguyên,Chia lấy phần dư,Lũy thừa,Căn bậc hai,2,% là toán tử chia lấy dư.
+EASY,Trong Java chỉ số (index) của mảng bắt đầu từ số mấy?,1,-1,0,Tùy người dùng định nghĩa,3,Mảng trong Java luôn bắt đầu từ chỉ số 0.
+EASY,Từ khóa nào dùng để khai báo một hằng số trong Java?,constant,final,static,stable,2,Dùng final để đánh dấu một biến là hằng số.
+EASY,Lớp cha của tất cả các lớp trong ngôn ngữ Java là lớp nào?,Throwable,Object,Main,Exception,2,Lớp java.lang.Object là gốc của mọi lớp.
+EASY,Để kế thừa một lớp người ta sử dụng từ khóa nào?,implements,extends,super,this,2,Dùng từ khóa extends để thiết lập quan hệ kế thừa giữa các lớp.
+EASY,Lớp ArrayList thuộc gói (package) nào sau đây?,java.io,java.lang,java.util,java.awt,3,ArrayList là một phần của Collections Framework trong java.util.
+EASY,Ký tự thoát '\n' có ý nghĩa gì khi in chuỗi?,Tạo một dấu Tab,Xóa ký tự phía trước,Xuống dòng mới,Về đầu dòng,3,\n đại diện cho ký tự xuống dòng.
+EASY,Trong lập trình hướng đối tượng đối tượng (object) được gọi là gì?,Một bản thiết kế,Một thực thể cụ thể của lớp,Một phương thức,Một kiểu dữ liệu nguyên thủy,2,Đối tượng là một instance (thực thể) của một lớp.
+EASY,Đuôi file của mã nguồn Java sau khi viết xong là gì?,.class,.exe,.java,.obj,3,Mã nguồn Java lưu dưới dạng .java.
+EASY,Đuôi file của mã Java sau khi đã được biên dịch thành Bytecode là gì?,.java,.class,.bin,.jar,2,File sau biên dịch có đuôi .class.
+EASY,Viết tắt JDBC trong Java có nghĩa là gì?,Java Data Basic,Java Database Connectivity,Java Digital Base,Java Design Core,2,JDBC dùng để kết nối và tương tác với cơ sở dữ liệu.
+MEDIUM,Vòng lặp nào luôn thực hiện khối lệnh ít nhất một lần?,while,for,do-while,foreach,3,do-while kiểm tra điều kiện sau khi thực hiện khối lệnh.
+MEDIUM,Hàm khởi tạo (Constructor) của một lớp có đặc điểm gì?,Có kiểu trả về là void,Phải mang tên trùng với tên lớp và không có kiểu trả về,Luôn luôn phải là static,Luôn luôn mang phạm vi private,2,Constructor dùng để khởi tạo đối tượng và tên phải khớp với lớp.
+MEDIUM,Access modifier 'private' giới hạn phạm vi truy cập như thế nào?,Trong cùng package,Trong cùng subclass,Chỉ trong nội bộ lớp đó,Toàn bộ dự án,3,private là mức truy cập hạn chế nhất chỉ trong class.
+MEDIUM,Từ khóa 'static' dùng cho một thuộc tính có ý nghĩa gì?,Thuộc tính đó là hằng số,Thuộc tính thuộc về lớp và dùng chung cho mọi đối tượng,Thuộc tính không thể kế thừa,Thuộc tính chỉ dùng trong hàm main,2,Biến static tồn tại duy nhất cho cả lớp thay vì từng đối tượng.
+MEDIUM,Từ khóa 'this' trong Java đại diện cho điều gì?,Tham chiếu đến lớp cha,Tham chiếu đến đối tượng hiện tại,Khai báo biến tĩnh,Kết thúc phương thức,2,this dùng để truy cập thành viên của instance hiện tại.
+MEDIUM,Nạp chồng phương thức (Method Overloading) là gì?,Các phương thức cùng tên và cùng tham số,Các phương thức cùng tên nhưng khác danh sách tham số,Ghi đè phương thức của cha,Xóa một phương thức cũ,2,Overloading cho phép các hàm cùng tên nhưng khác chữ ký tham số.
+MEDIUM,Ghi đè phương thức (Method Overriding) xảy ra khi nào?,Trong cùng một lớp,Giữa lớp cha và lớp con trong quan hệ kế thừa,Khi gọi một hàm tĩnh,Khi dùng từ khóa final cho hàm,2,Lớp con định nghĩa lại hàm của cha để thực hiện nghiệp vụ riêng.
+MEDIUM,Lớp được khai báo là 'abstract' (trừu tượng) thì có đặc điểm gì?,Có thể tạo đối tượng trực tiếp bằng lệnh new,Không thể khởi tạo đối tượng trực tiếp từ lớp đó,Bắt buộc phải có hàm main,Không được chứa phương thức có thân hàm,2,Lớp trừu tượng chỉ dùng làm khuôn mẫu kế thừa.
+MEDIUM,Sự khác biệt chính giữa Interface và Abstract class là gì?,Interface chỉ chứa hằng và phương thức trừu tượng,Abstract class có thể có biến thực thể,Lớp con dùng implements cho Interface và extends cho Abstract class,Tất cả các phương án trên,4,Đây là các điểm khác biệt cơ bản giữa giao diện và lớp trừu tượng.
+MEDIUM,Để so sánh nội dung của hai đối tượng String ta nên dùng cách nào?,Toán tử ==,Phương thức .equals(),Phương thức .compare(),Toán tử !=,2,Toán tử == so sánh địa chỉ ô nhớ còn .equals() so sánh nội dung text.
+MEDIUM,StringBuilder khác String ở điểm nào?,String chiếm ít bộ nhớ hơn,StringBuilder có thể thay đổi nội dung mà không tạo đối tượng mới,String chạy nhanh hơn,StringBuilder không hỗ trợ Unicode,2,StringBuilder là mutable cho phép sửa đổi chuỗi linh hoạt.
+MEDIUM,Phương thức .trim() của lớp String có tác dụng gì?,Cắt chuỗi thành các mảng,Viết hoa toàn bộ chuỗi,Loại bỏ khoảng trắng thừa ở hai đầu chuỗi,Lấy độ dài của chuỗi,3,trim() giúp làm sạch chuỗi bằng cách xóa space ở đầu và cuối.
+MEDIUM,Cấu trúc try-catch-finally khối lệnh nào luôn được thực thi?,try,catch,finally,Tất cả các khối trên,3,finally luôn chạy bất kể có ngoại lệ xảy ra hay không.
+MEDIUM,Ngoại lệ 'ArithmeticException' thường xảy ra trong trường hợp nào?,Truy cập mảng quá giới hạn,Phép toán chia cho số 0,Đối tượng bị null,Sai định dạng số,2,Xảy ra khi có lỗi tính toán số học không hợp lệ.
+MEDIUM,Interface 'Set' trong Java Collection có đặc tính gì?,Cho phép các phần tử trùng lặp,Tự động sắp xếp phần tử tăng dần,Không cho phép chứa các phần tử trùng lặp,Truy cập phần tử qua index,3,Set là tập hợp các phần tử duy nhất.
+MEDIUM,Lớp 'TreeMap' sắp xếp các phần tử dựa trên yếu tố nào?,Giá trị (Value),Thứ tự khi thêm vào,Thứ tự tăng dần của Khóa (Key),Ngẫu nhiên,3,TreeMap duy trì thứ tự dựa trên khóa.
+MEDIUM,Thư viện Swing dùng để xây dựng giao diện thuộc gói nào?,java.awt,javax.swing,java.swing,javax.awt,2,Swing là bộ công cụ GUI mạnh mẽ trong javax.swing.
+MEDIUM,Phương thức setVisible(true) của Frame dùng để làm gì?,Đóng cửa sổ,Hiển thị container lên màn hình,Ẩn container đi,Xóa bỏ các component,2,Nó làm cho cửa sổ giao diện trở nên khả dụng trên màn hình.
+MEDIUM,FlowLayout sắp xếp các thành phần giao diện như thế nào?,Theo dạng lưới,Theo dòng từ trái sang phải,Theo các hướng địa lý (Đông Tây Nam Bắc),Chồng lấp lên nhau,2,FlowLayout xếp các thành phần nối tiếp trên dòng.
+MEDIUM,Character Stream trong Java I/O dùng để xử lý loại tệp nào?,Tệp hình ảnh,Tệp video nhị phân,Tệp văn bản (Text),Tệp âm thanh,3,Character stream làm việc với đơn vị ký tự Unicode.
+HARD,Cơ chế dọn rác (Garbage Collection) sẽ thu hồi bộ nhớ khi nào?,Khi gọi hàm System.exit(),Khi đối tượng không còn bất kỳ tham chiếu nào tới,Khi bộ nhớ RAM của máy tính đầy,Mỗi khi phương thức kết thúc,2,GC tự động dọn dẹp các đối tượng mồ côi trên Heap.
+HARD,Bộ nhớ Stack trong Java dùng để lưu trữ thông tin gì?,Các đối tượng lớn,Biến cục bộ và các lời gọi hàm,Dữ liệu tĩnh (static),String Pool,2,Stack lưu trữ ngắn hạn các frame hàm và biến local.
+HARD,Vùng nhớ Heap có đặc điểm gì nổi bật?,Kích thước nhỏ và tốc độ rất nhanh,Dùng chung giữa các luồng (threads) và lưu trữ đối tượng,Tự động giải phóng ngay khi hết hàm,Chỉ lưu trữ mã lệnh chương trình,2,Heap là nơi cấp phát động cho mọi object của ứng dụng.
+HARD,Trong biểu thức chính quy (RegEx) ký hiệu '\d' tương đương với gì?,[a-z],,[A-Z],[^0-9],2,\d đại diện cho một chữ số bất kỳ từ 0-9.
+HARD,Biểu thức RegEx nào kiểm tra số điện thoại Việt Nam (10 số bắt đầu bằng 0)?,0\d{9},{10},0{9},[a-z0-9]{10},1,Bắt đầu bằng 0 và theo sau là đúng 9 chữ số.
+HARD,Nếu lớp cha có constructor có tham số lớp con phải làm gì?,Không cần làm gì,Phải gọi super(tham số) ở dòng đầu tiên của constructor con,Khai báo lại toàn bộ thuộc tính,Không thể kế thừa lớp đó,2,Lớp con phải gọi tường minh constructor cha nếu không có constructor mặc định.
+HARD,Từ khóa 'final' áp dụng cho một lớp (Class) có nghĩa là gì?,Lớp đó là lớp trừu tượng,Lớp đó không thể bị kế thừa (lớp lá),Lớp đó không thể tạo phương thức tĩnh,Lớp đó không chứa thuộc tính,2,Ngăn chặn việc tạo lớp con từ lớp final.
+HARD,Để có thể ghi một đối tượng vào file lớp đó phải thực thi Interface nào?,Runnable,Serializable,Exception,Cloneable,2,Serializable cho phép tuần tự hóa đối tượng thành chuỗi byte.
+HARD,Sự khác biệt giữa từ khóa 'throw' và 'throws' là gì?,Không có sự khác biệt,throw dùng để ném ngoại lệ cụ thể còn throws dùng khai báo hàm có thể ném ngoại lệ,throws dùng trong thân hàm,throw dùng ở chữ ký hàm,2,Phân biệt giữa hành động ném và lời khai báo rủi ro ngoại lệ.
+HARD,Trong GridBagLayout thuộc tính 'gridx' và 'gridy' xác định điều gì?,Chiều rộng và chiều cao ô,Tọa độ cột và hàng của thành phần trong lưới,Khoảng cách đệm giữa các ô,Cách thành phần chiếm khoảng trống,2,Xác định vị trí ô lưới mà component sẽ tọa lạc.
+HARD,Phương thức executeUpdate() trong JDBC trả về kết quả là gì?,Một đối tượng ResultSet,Số lượng hàng bị tác động (kiểu int),Một giá trị boolean,Toàn bộ bảng dữ liệu,2,Trả về số bản ghi bị INSERT/UPDATE/DELETE thành công.
+HARD,Đối tượng ResultSet trong JDBC dùng để làm gì?,Chứa thông tin kết nối,Lưu trữ kết quả trả về từ truy vấn SELECT,Thực thi câu lệnh SQL thô,Đóng cơ sở dữ liệu,2,ResultSet đóng vai trò là một bảng dữ liệu ảo chứa kết quả truy vấn.
+HARD,Lệnh Class.forName(DRIVER_CLASS) có vai trò gì?,Đóng kết nối hiện tại,Nạp và đăng ký JDBC Driver với hệ thống,Xóa dữ liệu trong bảng,Tạo một database mới,2,Đây là bước cần thiết để khởi tạo driver của từng loại DB.
+HARD,Trong Java Collection phương thức iterator() trả về đối tượng dùng để làm gì?,Một mảng các phần tử,Một danh sách liên kết,Đối tượng để duyệt qua các phần tử của tập hợp,Độ dài của tập hợp,3,Iterator cung cấp cách duyệt chuẩn cho mọi Collection.
+HARD,Lớp 'LinkedList' có ưu thế hơn 'ArrayList' trong trường hợp nào?,Truy cập phần tử ngẫu nhiên qua chỉ số,Thao tác thêm hoặc xóa phần tử ở giữa danh sách,Lưu trữ lượng dữ liệu cực lớn,Khi cần tốc độ đọc nhanh nhất,2,LinkedList thêm xóa nhanh do chỉ cần thay đổi liên kết con trỏ.
+HARD,Tại sao phải gọi phương thức close() cho Connection sau khi sử dụng?,Để xóa sạch dữ liệu trong DB,Để giải phóng tài nguyên hệ thống và tránh tràn kết nối,Để lưu lại các thay đổi,Để giúp chương trình chạy nhanh hơn,2,Giải phóng kết nối giúp hệ thống không bị treo hoặc hết tài nguyên.
+HARD,LayoutManager nào sắp xếp các thành phần vào 5 vùng (North South East West Center)?,FlowLayout,GridLayout,BorderLayout,GridBagLayout,3,BorderLayout chia container thành 5 khu vực địa lý.
+HARD,Trong GridBagLayout thuộc tính 'fill' dùng để điều chỉnh điều gì?,Căn lề chữ,Cách thành phần giãn nở để chiếm khoảng trống ô,Đặt tọa độ tuyệt đối,Xác định độ dày đường viền,2,Xác định component có nở ra theo chiều ngang/dọc để lấp đầy ô hay không.
+HARD,Phương thức readLine() của BufferedReader trả về kiểu dữ liệu gì?,Một số nguyên byte,Một ký tự duy nhất,Một dòng văn bản dạng String,Toàn bộ nội dung tệp,3,Đọc dữ liệu theo từng dòng cho đến khi gặp ký tự xuống dòng.
+HARD,Để lấy giá trị khóa tự tăng (Auto Increment) sau khi chèn dữ liệu JDBC cần cấu hình gì?,Sử dụng RETURN_GENERATED_KEYS khi tạo Statement,Dùng lệnh SELECT MAX thủ công,Dùng biến static để lưu,JDBC tự động trả về mặc định,1,Cần yêu cầu driver trả về các key tự sinh trong lệnh INSERT.
+HARD,String Pool thực chất nằm trong phân vùng bộ nhớ nào?,Stack,Heap,Static,Register,2,Nó là một vùng nhỏ đặc biệt bên trong Heap.
+HARD,Ký hiệu '?' trong biểu thức chính quy RegEx có nghĩa là gì?,Lặp từ 1 đến nhiều lần,Lặp từ 0 đến nhiều lần,Xuất hiện 0 hoặc 1 lần,Không được phép xuất hiện,3,? tương ứng với tập hợp {0,1}.
+HARD,Sự khác biệt lớn nhất giữa HashSet và TreeSet là gì?,HashSet nhanh hơn nhưng không thứ tự còn TreeSet chậm hơn nhưng có sắp xếp,HashSet có sắp xếp còn TreeSet thì không,Cả hai đều giống hệt nhau về hiệu năng,TreeSet cho phép phần tử trùng lặp,1,HashSet dùng băm nên nhanh; TreeSet dùng cây nên có thứ tự.
+HARD,Phương thức split() của lớp String trả về kết quả là kiểu gì?,String,int,Mảng String[],List,3,Trả về một mảng chứa các chuỗi con sau khi tách.
+HARD,Lớp 'BufferedOutputStream' mang lại lợi ích gì?,Định dạng lại dữ liệu ghi,Tăng tốc độ ghi file bằng cách sử dụng bộ đệm trung gian,Mã hóa dữ liệu bảo mật,Nén tệp tin tự động,2,Giảm thiểu số lần tương tác trực tiếp với ổ đĩa vật lý.
+HARD,Interface 'Map' thực hiện ánh xạ giữa các thành phần nào?,Index và Value,Key và Value,Object và Object,List và Set,2,Mỗi khóa (Key) được ánh xạ tới duy nhất một giá trị (Value).
+HARD,Từ khóa 'super()' gọi constructor cha phải nằm ở đâu?,Bất kỳ vị trí nào,Dòng đầu tiên của constructor con,Dòng cuối cùng của constructor con,Trong khối xử lý ngoại lệ,2,Quy tắc bắt buộc của Java trong kế thừa.
+HARD,Lớp trừu tượng khác Interface ở điểm quan trọng nào?,Lớp trừu tượng có thể có constructor và biến instance còn Interface thì không,Interface chỉ có hằng số,Lớp trừu tượng dùng extends còn Interface dùng implements,Tất cả các ý trên,4,Các quy tắc về cấu trúc và cú pháp của hai thực thể này rất khác nhau.
+HARD,Khi ghi đè phương thức phạm vi truy cập của lớp con phải như thế nào?,Phải hẹp hơn lớp cha,Phải rộng hơn hoặc bằng lớp cha,Luôn luôn phải là public,Luôn luôn phải là private,2,Lớp con không được thu hẹp quyền truy cập đã có của cha.
+HARD,Ngoại lệ Unchecked (ngoại lệ thực thi) kế thừa từ lớp nào?,IOException,SQLException,RuntimeException,Error,3,RuntimeException và các con của nó không bắt buộc phải try-catch.
+HARD,Trong mô hình xử lý sự kiện (Event Handling) 'Listener' đóng vai trò gì?,Nguồn phát sinh ra sự kiện,Đối tượng trực tiếp nhận và xử lý sự kiện,Giao diện hiển thị,Hệ điều hành quản lý,2,Listener đợi và phản hồi lại các hành động từ người dùng.
+HARD,Định dạng chuẩn của URL kết nối cơ sở dữ liệu MySQL trong JDBC là gì?,http://localhost/db,jdbc:mysql://[host]:[port]/[db_name],file://localhost/db,mysql://host/db,2,Cú pháp bắt buộc để driver nhận diện địa chỉ DB.
+HARD,Phương thức writeObject() dùng để thực hiện công việc gì?,Ghi một chuỗi ký tự,Ghi toàn bộ một đối tượng ra stream (Serialization),Ghi một số nguyên byte,Xóa đối tượng khỏi bộ nhớ,2,Dùng trong Object Serialization.
+HARD,Ký hiệu '\s' trong RegEx đại diện cho loại ký tự nào?,Ký tự chữ cái,Ký tự chữ số,Ký tự trắng (khoảng trắng tab xuống dòng),Ký tự đặc biệt,3,\s là viết tắt của whitespace.
+HARD,Lớp 'File' trong gói java.io thực hiện nhiệm vụ chính là gì?,Đọc nội dung văn bản trong tệp,Ghi dữ liệu vào tệp,Quản lý thông tin siêu dữ liệu của tệp và thư mục (tên đường dẫn),Tạo kết nối mạng,3,Dùng để thao tác với cấu trúc tệp tin trên hệ điều hành.
+HARD,Điểm khác biệt giữa phương thức print() và printf() là gì?,print() không xuống dòng còn printf() dùng để in có định dạng,printf() tự động xuống dòng,print() thực hiện nhanh hơn,Hai hàm hoàn toàn giống nhau,1,printf() hỗ trợ các ký tự định dạng như %d %s.
+HARD,Sử dụng từ khóa 'final' cho một phương thức có ý nghĩa gì?,Phương thức đó là tĩnh,Phương thức đó không thể bị ghi đè (override) ở lớp con,Phương thức đó không nhận tham số,Phương thức đó không có thân hàm,2,Dùng để bảo vệ logic của hàm không bị thay đổi ở các lớp kế thừa.
+HARD,PreparedStatement vượt trội hơn Statement ở điểm nào?,Nó chạy chậm hơn nhưng an toàn,Biên dịch trước mã SQL giúp thực thi nhanh nhiều lần và chống SQL Injection,Nó chỉ dùng được cho lệnh SELECT,Không có sự khác biệt về bảo mật,2,Đây là lựa chọn tối ưu cho ứng dụng thực tế.
+HARD,Interface 'List' đảm bảo thứ tự của các phần tử như thế nào?,Theo thứ tự tăng dần,Theo thứ tự giảm dần,Theo đúng thứ tự khi chúng được thêm vào (insertion order),Theo thứ tự bảng chữ cái,3,List là danh sách có thứ tự được bảo toàn.
+HARD,Kiểu dữ liệu tham chiếu (Class/Object) sẽ có giá trị mặc định là gì nếu không khởi tạo?,0,false,null,NaN,3,Mọi biến đối tượng chưa trỏ tới đâu đều mang giá trị null.
+HARD,Phương thức System.gc() có đảm bảo việc dọn rác xảy ra ngay lập tức không?,Có chắc chắn,Không (đó chỉ là lời gợi ý/yêu cầu cho JVM),Chỉ xảy ra khi RAM đã cạn kiệt,Chỉ có hiệu lực trên Windows,2,JVM sẽ quyết định thời điểm thực hiện dọn dẹp tối ưu nhất.
+HARD,Ký hiệu '^' khi nằm bên trong cặp dấu [] của RegEx (ví dụ [^xyz]) có nghĩa là gì?,Bắt đầu bằng x y hoặc z,Kết thúc bằng x y hoặc z,Bất kỳ ký tự nào TRỪ x y z,Chứa cụm ký tự xyz,3,Đóng vai trò là phép phủ định (loại trừ) trong tập ký tự.
+HARD,Lớp tiện ích nào cung cấp phương thức tĩnh Collections.sort() để sắp xếp danh sách?,ArrayList,Arrays,Collections,Object,3,java.util.Collections chứa các thuật toán thao tác trên tập hợp.
+HARD,LayoutManager mặc định của JFrame trong Java Swing là gì?,FlowLayout,GridLayout,BorderLayout,GridBagLayout,3,Khác với Panel JFrame sử dụng BorderLayout làm mặc định.
+HARD,Trong JDBC để di chuyển con trỏ ResultSet đến hàng tiếp theo ta dùng lệnh nào?,moveNext(),next(),forward(),go(),2,Sử dụng rs.next() trả về true nếu vẫn còn hàng dữ liệu.
+HARD,Mã lỗi 'Unreachable catch block' thường do nguyên nhân nào?,Thiếu khối lệnh finally,Bắt lớp ngoại lệ cha (như Exception) trước các lớp ngoại lệ con cụ thể,Không ném lỗi trong khối try,Dùng sai tên của ngoại lệ,2,Ngoại lệ tổng quát đã xử lý hết nên các khối catch cụ thể bên dưới bị thừa.
+HARD,Lớp Wrapper (như Integer Double) thực sự cần thiết khi nào?,Khi thực hiện tính toán số học cơ bản,Khi cần sử dụng kiểu nguyên thủy bên trong các Collection (như ArrayList),Khi in dữ liệu ra màn hình console,Khi muốn khai báo hằng số,2,Collection trong Java chỉ chấp nhận lưu trữ các đối tượng.
+HARD,Cú pháp đúng để ép kiểu (casting) từ một biến double 'd' sang kiểu int là gì?,(int) d,int(d),d.toInt(),convert(d),1,Sử dụng ngoặc đơn chứa kiểu dữ liệu đích đặt trước biến.
+HARD,Phương thức substring(0, 6) áp dụng cho chuỗi "Nguyen Van Ty" sẽ trả về kết quả gì?,Nguyen,Van Ty,Nguyen ,Ty,1,Lấy từ vị trí đầu tiên (0) đến vị trí 5 (trước vị trí 6).
