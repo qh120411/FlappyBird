@@ -1,4 +1,4 @@
-difficulty,question,option_a,option_b,option_c,option_d,correct,explain
+difficulty,question,option_a,option_b,option_c,option_d,correct,explaination
 EASY,Ngôn ngữ lập trình Java do công ty nào khởi xướng phát triển?,Microsoft,Sun Microsystems,Google,Oracle,2,Java được phát triển ban đầu bởi Sun Microsystems.
 EASY,Khẩu hiệu nổi tiếng thể hiện tính độc lập nền tảng của Java là gì?,Write once run anywhere,Compile once run everywhere,Simple and Power,Open source for all,1,Triết lý của Java là Viết một lần chạy mọi nơi.
 EASY,JDK là viết tắt của cụm từ nào?,Java Desktop Kit,Java Development Kit,Java Dual Key,Java Digital Kit,2,JDK là bộ công cụ phát triển Java.
