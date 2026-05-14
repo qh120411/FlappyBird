@@ -1,10 +1,6 @@
 import java.awt.Image;
 import java.awt.geom.AffineTransform;
 
-/**
- * Represents the bird character in the game.
- * Handles physics simulation including gravity, flapping, and rotation.
- */
 public class Bird {
 
     public int x;

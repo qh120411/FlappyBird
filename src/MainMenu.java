@@ -170,4 +170,20 @@ public class MainMenu extends JPanel {
         button.setFont(ThemeConstants.FONT_BUTTON);
         return button;
     }
+
+    // public static void main(String[] args) {
+    //     MainMenu menu = new MainMenu(
+    //         (name, difficulty) -> System.out.println("Start game for " + name + " with difficulty " + difficulty),
+    //         () -> System.out.println("Show leaderboard"),
+    //         () -> System.out.println("Open admin panel")
+    //     );
+    //     menu.setPreferredSize(new Dimension(480, 360));
+    //     javax.swing.JFrame frame = new javax.swing.JFrame("Main Menu Test");
+    //     frame.setDefaultCloseOperation(javax.swing.JFrame.EXIT_ON_CLOSE);
+    //     frame.getContentPane().add(menu);
+    //     frame.pack();
+    //     frame.setLocationRelativeTo(null);
+    //     frame.setVisible(true);
+    // }
 }
+

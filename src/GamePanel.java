@@ -6,10 +6,6 @@ import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 import javax.swing.Timer;
 
-/**
- * Main game rendering and event handling panel.
- * Handles game updates, quiz displays, and graphics rendering.
- */
 public class GamePanel extends JPanel {
 
     private static final int UPDATE_INTERVAL_MS = 16; // ~60 FPS
