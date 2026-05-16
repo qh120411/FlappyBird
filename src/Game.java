@@ -2,15 +2,11 @@ import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Main game engine handling physics, collision detection, and game state.
- */
 public class Game {
 
     public static final int GROUND_Y = App.HEIGHT - 80;
     public static final int CEILING_Y = -20;
 
-    // Game timing constants
     private static final int PAUSE_DELAY = 8;
     private static final int RESTART_DELAY = 8;
 

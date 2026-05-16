@@ -3,11 +3,6 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
-/**
- * Main application entry point.
- * Manages the main window and card-based UI navigation between Menu and Game
- * screens.
- */
 public class App {
 
     public static final int WIDTH = 500;

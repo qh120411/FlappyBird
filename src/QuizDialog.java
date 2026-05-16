@@ -30,11 +30,10 @@ public class QuizDialog {
 
         JPanel content = new JPanel(new BorderLayout(10, 10));
         content.setBackground(ThemeConstants.COLOR_PANEL);
-        content.setBorder(BorderFactory.createEmptyBorder(12, 12, 12, 12));
+        content.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
 
         JLabel prompt = new JLabel(
-            "<html><body style='width:340px'>" + escape(question.getPrompt()) + "</body></html>"
-        );
+                "<html><body style='width:580px'>" + escape(question.getPrompt()) + "</body></html>");
         prompt.setFont(ThemeConstants.FONT_DIALOG_TITLE);
         prompt.setForeground(ThemeConstants.COLOR_PRIMARY);
         content.add(prompt, BorderLayout.NORTH);
@@ -42,6 +41,7 @@ public class QuizDialog {
         JPanel optionsPanel = new JPanel();
         optionsPanel.setLayout(new BoxLayout(optionsPanel, BoxLayout.Y_AXIS));
         optionsPanel.setOpaque(false);
+        optionsPanel.setBorder(BorderFactory.createEmptyBorder(10, 0, 10, 0));
 
         ButtonGroup group = new ButtonGroup();
         List<String> options = question.getOptions();
@@ -50,6 +50,7 @@ public class QuizDialog {
             buttons[i] = new JRadioButton(options.get(i));
             buttons[i].setOpaque(false);
             buttons[i].setFont(ThemeConstants.FONT_BODY);
+            buttons[i].setBorder(BorderFactory.createEmptyBorder(5, 0, 5, 0));
             group.add(buttons[i]);
             optionsPanel.add(buttons[i]);
         }
@@ -76,7 +77,8 @@ public class QuizDialog {
             }
 
             if (selected < 0) {
-                JOptionPane.showMessageDialog(dialog, "Hay chon mot dap an.", "Cau hoi", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(dialog, "Hay chon mot dap an.", "Cau hoi",
+                        JOptionPane.INFORMATION_MESSAGE);
                 return;
             }
 

@@ -32,7 +32,7 @@ public class ThemeConstants {
 
     public static final Dimension BUTTON_SIZE = new Dimension(340, 40);
     public static final Dimension INPUT_SIZE = new Dimension(340, 36);
-    public static final Dimension QUIZ_DIALOG_SIZE = new Dimension(420, 280);
+    public static final Dimension QUIZ_DIALOG_SIZE = new Dimension(650, 480);
     public static final Dimension ADMIN_DIALOG_SIZE = new Dimension(920, 420);
     public static final Dimension LEADERBOARD_DIALOG_SIZE = new Dimension(500, 360);
 
@@ -41,15 +41,13 @@ public class ThemeConstants {
 
     public static Border createPanelBorder() {
         return BorderFactory.createCompoundBorder(
-            BorderFactory.createLineBorder(COLOR_BORDER, 2),
-            BorderFactory.createEmptyBorder(30, 34, 30, 34)
-        );
+                BorderFactory.createLineBorder(COLOR_BORDER, 2),
+                BorderFactory.createEmptyBorder(30, 34, 30, 34));
     }
 
     public static Border createInputBorder() {
         return BorderFactory.createCompoundBorder(
-            BorderFactory.createLineBorder(COLOR_INPUT_BORDER, 1),
-            BorderFactory.createEmptyBorder(6, 10, 6, 10)
-        );
+                BorderFactory.createLineBorder(COLOR_INPUT_BORDER, 1),
+                BorderFactory.createEmptyBorder(6, 10, 6, 10));
     }
 }

@@ -1,10 +1,5 @@
 import java.util.Arrays;
 
-/**
- * Singleton keyboard input handler.
- * Provides event-based key input with consumption mechanism to prevent key
- * repeat.
- */
 public class Keyboard {
 
     private static Keyboard instance;
